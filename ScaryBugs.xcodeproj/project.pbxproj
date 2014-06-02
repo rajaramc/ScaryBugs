@@ -22,6 +22,7 @@
 		358D5693193C621F006A8E5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358D5672193C621F006A8E5D /* UIKit.framework */; };
 		358D569B193C621F006A8E5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 358D5699193C621F006A8E5D /* InfoPlist.strings */; };
 		358D569D193C621F006A8E5D /* ScaryBugsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D569C193C621F006A8E5D /* ScaryBugsTests.m */; };
+		358D56AA193C63C2006A8E5D /* SBScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D56A9193C63C2006A8E5D /* SBScaryBugData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,19 +44,21 @@
 		358D5678193C621F006A8E5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		358D567A193C621F006A8E5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		358D567C193C621F006A8E5D /* ScaryBugs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScaryBugs-Prefix.pch"; sourceTree = "<group>"; };
-		358D567D193C621F006A8E5D /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
-		358D567E193C621F006A8E5D /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		358D567D193C621F006A8E5D /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBAppDelegate.h; path = ScaryBugs/SBAppDelegate.h; sourceTree = "<group>"; };
+		358D567E193C621F006A8E5D /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBAppDelegate.m; path = ScaryBugs/SBAppDelegate.m; sourceTree = "<group>"; };
 		358D5681193C621F006A8E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		358D5683193C621F006A8E5D /* SBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBMasterViewController.h; sourceTree = "<group>"; };
-		358D5684193C621F006A8E5D /* SBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBMasterViewController.m; sourceTree = "<group>"; };
-		358D5686193C621F006A8E5D /* SBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBDetailViewController.h; sourceTree = "<group>"; };
-		358D5687193C621F006A8E5D /* SBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBDetailViewController.m; sourceTree = "<group>"; };
+		358D5683193C621F006A8E5D /* SBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBMasterViewController.h; path = ScaryBugs/SBMasterViewController.h; sourceTree = "<group>"; };
+		358D5684193C621F006A8E5D /* SBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBMasterViewController.m; path = ScaryBugs/SBMasterViewController.m; sourceTree = "<group>"; };
+		358D5686193C621F006A8E5D /* SBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBDetailViewController.h; path = ScaryBugs/SBDetailViewController.h; sourceTree = "<group>"; };
+		358D5687193C621F006A8E5D /* SBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBDetailViewController.m; path = ScaryBugs/SBDetailViewController.m; sourceTree = "<group>"; };
 		358D5689193C621F006A8E5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		358D568F193C621F006A8E5D /* ScaryBugsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		358D5690193C621F006A8E5D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		358D5698193C621F006A8E5D /* ScaryBugsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugsTests-Info.plist"; sourceTree = "<group>"; };
 		358D569A193C621F006A8E5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		358D569C193C621F006A8E5D /* ScaryBugsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsTests.m; sourceTree = "<group>"; };
+		358D56A8193C63C2006A8E5D /* SBScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBScaryBugData.h; sourceTree = "<group>"; };
+		358D56A9193C63C2006A8E5D /* SBScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBScaryBugData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +118,8 @@
 		358D5674193C621F006A8E5D /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
-				358D567D193C621F006A8E5D /* SBAppDelegate.h */,
-				358D567E193C621F006A8E5D /* SBAppDelegate.m */,
-				358D5680193C621F006A8E5D /* Main.storyboard */,
-				358D5683193C621F006A8E5D /* SBMasterViewController.h */,
-				358D5684193C621F006A8E5D /* SBMasterViewController.m */,
-				358D5686193C621F006A8E5D /* SBDetailViewController.h */,
-				358D5687193C621F006A8E5D /* SBDetailViewController.m */,
+				358D56A7193C636F006A8E5D /* Model */,
+				358D56A6193C6320006A8E5D /* UI */,
 				358D5689193C621F006A8E5D /* Images.xcassets */,
 				358D5675193C621F006A8E5D /* Supporting Files */,
 			);
@@ -155,6 +153,30 @@
 				358D5699193C621F006A8E5D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		358D56A6193C6320006A8E5D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				358D567D193C621F006A8E5D /* SBAppDelegate.h */,
+				358D567E193C621F006A8E5D /* SBAppDelegate.m */,
+				358D5680193C621F006A8E5D /* Main.storyboard */,
+				358D5683193C621F006A8E5D /* SBMasterViewController.h */,
+				358D5684193C621F006A8E5D /* SBMasterViewController.m */,
+				358D5686193C621F006A8E5D /* SBDetailViewController.h */,
+				358D5687193C621F006A8E5D /* SBDetailViewController.m */,
+			);
+			name = UI;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		358D56A7193C636F006A8E5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				358D56A8193C63C2006A8E5D /* SBScaryBugData.h */,
+				358D56A9193C63C2006A8E5D /* SBScaryBugData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +281,7 @@
 				358D5685193C621F006A8E5D /* SBMasterViewController.m in Sources */,
 				358D5688193C621F006A8E5D /* SBDetailViewController.m in Sources */,
 				358D567F193C621F006A8E5D /* SBAppDelegate.m in Sources */,
+				358D56AA193C63C2006A8E5D /* SBScaryBugData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +318,7 @@
 				358D5681193C621F006A8E5D /* Base */,
 			);
 			name = Main.storyboard;
+			path = ScaryBugs;
 			sourceTree = "<group>";
 		};
 		358D5699193C621F006A8E5D /* InfoPlist.strings */ = {
